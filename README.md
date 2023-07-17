@@ -1,36 +1,16 @@
-## Getting Started
+## Tech Used
+- EthersJS
+- ThirdWeb
+- Solidity
+- React
+- Tailwind CSS
 
-Create a project using this example:
-
-```bash
-npx thirdweb create --template vite-typescript-starter
-```
-
-You can start editing the page by modifying `src/main.tsx`. The page auto-updates as you edit the file.
-
-On `src/index.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
-
-### Deploy to IPFS
-
-Deploy a copy of your application to IPFS using the following command:
-
-```bash
-yarn deploy
-```
-
-## Learn More
-
-To learn more about thirdweb, Vite and React, take a look at the following resources:
-
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb TypeScript Documentation](https://docs.thirdweb.com/react) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com/react) - check our guides and development resources.
-- [Vite Documentation](https://vitejs.dev/guide/) - learn about Vite features.
-- [React documentation](https://reactjs.org/) - learn React.
-
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
-
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+## UI Design
+![first page](image.png)
+![app-1](image-1.png)
+![app-2](image-2.png)
+![app-3](image-3.png)
+![app-4](image-4.png)
+![app-5](image-5.png)
+![app-6](image-6.png)
+![app-7](image-8.png)

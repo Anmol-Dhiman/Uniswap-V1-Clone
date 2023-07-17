@@ -66,8 +66,7 @@ const MainApp = () => {
                 {selectedFeature == "add liquidity" && <Liquidity />}
                 {selectedFeature == "exchange" && <Exchange />}
 
-                <div className=" flex mt-24 text-white flex-col  items-center " >
-                    <div className="font-light">This is not the optimized version it could lag while making operations</div>
+                <div className=" flex mt-48 text-white flex-col  items-center " >
                     <div className="font-semibold" >@2023 ANMOL ALL RIGHTS RESERVED</div>
                 </div>
             </div>

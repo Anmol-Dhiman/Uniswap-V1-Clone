@@ -53,6 +53,7 @@ const Liquidity = () => {
             setLoading(true)
             var i = 1;
             while (true) {
+                console.log("fetching")
 
                 const exchange = await factoryContract.getExchangeFromID(i)
                 const token = await factoryContract.getTokenFromID(i)
