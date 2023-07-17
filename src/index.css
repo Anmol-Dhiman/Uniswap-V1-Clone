@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+    @apply text-[#A3A3A3] font-inter text-base font-medium mr-8
+}
+
+
+.nav-link:hover {
+    @apply text-white
+}
+
+.social-button {
+    @apply text-white mr-8
+}
+
+.social-button svg {
+    @apply w-8 h-8
+}
+
+.social-button:hover {
+    @apply text-[#BABBBD]
+}
+
+.feature-button {
+    @apply px-4 py-2 font-inter font-medium
+}
+
+.feature-button:hover {
+    @apply rounded-lg bg-[#1F2233]
+}
+
+
+
+.search-box svg {
+    @apply text-[#98A1C0]
+}
+
+.chain svg {
+
+    @apply text-white
+}
+
+.change-chain:hover {
+    @apply bg-[#2D3343] rounded-lg
+}
+
+body {
+    @apply bg-[#101322]
+}
+
+.input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input[type=number] {
+    -moz-appearance: textfield;
+}

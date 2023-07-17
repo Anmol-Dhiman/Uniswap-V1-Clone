@@ -1,0 +1,7 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+[etherscan]
+mumbai = { key = "DHW4IES5VI5WZ5ZQNTI9QEB5Z6PT4573YS", chainId = 80001}
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
