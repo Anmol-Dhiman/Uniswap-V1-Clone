@@ -1,10 +1,10 @@
 import { useSDK } from '@thirdweb-dev/react'
 import { useState, useEffect } from 'react'
-import { abi } from "../../contracts/out/Factory.sol/Factory.json";
-import exchangeAbi from "../../contracts/out/Exchange.sol/Exchange.json"
-import tokenContractAbi from "../../contracts/out/ERC20.sol/ERC20.json";
+import { abi } from "../abi/Factory.json";
+import exchangeAbi from "../abi/Exchange.json"
+import tokenContractAbi from "../abi/ERC20.json";
 import { ToastContainer, toast } from 'react-toastify';
-import erc20Abi from "../../contracts/out/ERC20.sol/ERC20.json"
+import erc20Abi from "../abi/ERC20.json"
 import { AiOutlineClose } from "react-icons/ai"
 import { ethers } from 'ethers';
 import { ThreeDots } from 'react-loader-spinner'

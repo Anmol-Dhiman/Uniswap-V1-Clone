@@ -5,9 +5,9 @@ import { useSDK } from "@thirdweb-dev/react";
 import polygon from "../assets/polygon.svg"
 import { ThreeDots } from 'react-loader-spinner'
 import { AiOutlineClose } from "react-icons/ai"
-import { abi } from "../../contracts/out/Factory.sol/Factory.json";
-import exchangeAbi from "../../contracts/out/Exchange.sol/Exchange.json"
-import tokenContractAbi from "../../contracts/out/ERC20.sol/ERC20.json"
+import { abi } from "../abi/Factory.json";
+import exchangeAbi from "../abi/Exchange.json"
+import tokenContractAbi from "../abi/ERC20.json"
 import { ToastContainer, toast } from "react-toastify";
 import { ethers } from "ethers";
 import { parseEther } from "ethers/lib/utils";

@@ -2,7 +2,7 @@ import { useContract, useContractWrite, useContractRead, useSDK } from '@thirdwe
 import { ethers } from 'ethers';
 import { isAddress } from 'ethers/lib/utils'
 import { useState } from 'react'
-import { abi } from "../../contracts/out/Factory.sol/Factory.json"
+import { abi } from "../abi/Factory.json"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
